@@ -1,0 +1,8 @@
+div{
+    text-align: center;
+    background-color: aquamarine;
+    grid-template-columns: 0.33fr 0.33fr;
+}
+body{
+    background-color: bisque;
+}

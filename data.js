@@ -11,4 +11,21 @@ async function getData()
           console.log(year, temp);
         });
 }
+const ctx=document.getElementById("lukeChart");
+new Chart(ctx,{
+    type: 'line',
+    data: {
+   
+        labels: secondIn.map((p)=>p),
+        datasets: [
+            {
+                label: "Increasing temperature by year",
+                data: firstIn.map((p)=>p),
+                backgroundColor: '#33FFA4',
+                size: 20,
+            }
+        ],
+     
+    }
+})
 getData();
