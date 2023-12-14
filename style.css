@@ -1,8 +1,8 @@
 div{
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(62, 224, 17);
     grid-template-columns: 0.33fr 0.33fr;
 }
 body{
-    background-color: bisque;
+    background-color: rgb(203, 122, 131);
 }
